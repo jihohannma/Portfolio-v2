@@ -1,0 +1,116 @@
+/* BASE CSS 
+    #BODY
+        #TYPOGRAPHY
+        #LINKS
+        #MEDIA
+            #IMAGES
+            #VIDEOS
+        #COMPONENTS
+        
+    #LAYOUT
+        #CONTAINER
+        #IMAGE
+        #MEDIAQUERIES
+
+    #SITE STRUCTURE
+        #HEADER
+            #LOGO
+            #SITE NAV
+        #HERO
+        #FOOTER
+        #SECTIONS
+        #SUBPAGES
+*/
+
+/* font-size 14px=1em */
+
+/* TYPOGRAPHY */
+body {
+    display: block;
+    font-size: 87.5%;          
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,.8);
+    max-width: 1200px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+
+/* LINKS */
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+}
+
+a:hover {
+    color: rgba(116, 165, 84, 0.8)
+}
+
+
+/* LAYOUT */
+
+/* CONTAINER */
+.container {
+    max-width: 1200px;
+}
+
+/* IMAGE */
+.preimg img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* SITE STRUCTURE */
+
+/* HEADER */
+.topnav .container {
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h2header h2 {
+    margin-top: 3em;
+    font-size: 2em;
+    font-style: italic;
+}
+
+/* LOGO */
+.site-logo h1{
+    font-size: 2em;
+    /* margin: 0; */
+    /* background-color: skyblue; */
+}
+
+/* SITE-NAV */
+.site-nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    /* margin: 0; */
+}
+
+.site-nav a {
+    display: block;
+    padding: 1em;
+}
+
+
+/* HERO */
+.hero {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 5em;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+}
+
+/* SECTIONS */
+.preview {
+    background-color: rgba(0,0,0,.02);
+}
