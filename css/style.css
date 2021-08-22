@@ -28,7 +28,7 @@
 body {
     display: block;
     font-size: 87.5%;          
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgba(0,0,0,.8);
     max-width: 1200px;
     margin: 0 auto;
@@ -36,6 +36,9 @@ body {
     /* background-color: rgba(0,0,0,.1); */
 }
 
+h1 {
+    font-family: Arboria;
+}
 
 /* LINKS */
 a {
@@ -53,25 +56,6 @@ a:hover {
 /* CONTAINER */
 .container {
     max-width: 1200px;
-}
-
-/* IMAGE */
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-.sub-main img {
-    max-width: 50%;
-    margin: 0 auto;
-    border-radius: 50%;
-}
-
-.preimg .olympic {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 80%;
 }
 
 .grid-container {
@@ -92,6 +76,46 @@ img {
     max-width: 100%;
 }
 
+.block-container {
+    margin-top: 3em;
+}
+
+
+/* IMAGE */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sub-main img {
+    max-width: 50%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.preimg .olympic {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+}
+
+.block-container .olympic {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+}
+
+.block-container .olympic img {
+    padding-bottom: 4em;
+}
+
+.block-container img {
+    padding-bottom: 1em;
+}
+
+
 /* MEDIA QUARIES */
 @media(max-width: 768px) {
     body {
@@ -101,6 +125,10 @@ img {
 
     .sub-main img {
         max-width: 80%;
+    }
+
+    .block-container .olympic img {
+        max-width: 100%;
     }
 }
 
